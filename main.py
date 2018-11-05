@@ -6,7 +6,7 @@ sql_most_articles = "SELECT articles.slug, count(*) as Counts FROM log JOIN arti
 sql_most_author = "SELECT authors.name, count(*) as Counts FROM log JOIN articles ON CONCAT('/article/', articles.slug) = log.path JOIN authors ON authors.id = articles.author GROUP BY authors.name ORDER BY Counts desc;"
 sql_errors = "SELECT time::timestamp::date as date, (((SELECT count(*) FROM log WHERE log.time = time::timestamp::date) * 100.0 ) / count(*)) AS Counter FROM log WHERE NOT status = '200 OK' GROUP BY date;"
 
-conn = psycopg2.connect("host=35.233.16.142 dbname=news user=postgres password=123")
+conn = psycopg2.connect("dbname=news")
 
 # Execute SQL query
 def execute(query):
