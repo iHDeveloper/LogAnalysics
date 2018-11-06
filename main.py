@@ -7,7 +7,7 @@ sql_most_author = "SELECT authors.name, count(*) as Counts FROM log JOIN article
 sql_errors = "SELECT time::timestamp::date as date, (((SELECT count(*) FROM log WHERE log.time = time::timestamp::date) * 100.0 ) / count(*)) AS Counter FROM log WHERE NOT status = '200 OK' GROUP BY date ORDER BY Counter LIMIT 1;"
 
 try:
-        conn = psycopg2.connect("dbname=news host=35.187.32.92 user=postgres password=123")
+        conn = psycopg2.connect("dbname=news")
 except:
         print ('Unable to connect to the database')
 
