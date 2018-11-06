@@ -15,35 +15,5 @@ Q2: Who are the most popular article authors of all time?
 
 ----------------------------
 
-Q3: On which days did more than 1%% of requests lead to errors?
-Jul 03, 2016  --  4.7 %% errors
-Jul 08, 2016  --  4.5 %% errors
-Jul 15, 2016  --  4.6 %% errors
-Jul 11, 2016  --  4.7 %% errors
-Jul 23, 2016  --  5.0 %% errors
-Jul 13, 2016  --  4.9 %% errors
-Jul 01, 2016  --  6.9 %% errors
-Jul 05, 2016  --  4.4 %% errors
-Jul 20, 2016  --  4.9 %% errors
-Jul 22, 2016  --  4.6 %% errors
-Jul 07, 2016  --  5.2 %% errors
-Jul 04, 2016  --  5.0 %% errors
-Jul 12, 2016  --  5.0 %% errors
-Jul 18, 2016  --  5.0 %% errors
-Jul 06, 2016  --  4.5 %% errors
-Jul 09, 2016  --  4.6 %% errors
-Jul 25, 2016  --  4.8 %% errors
-Jul 10, 2016  --  5.1 %% errors
-Jul 31, 2016  --  5.7 %% errors
-Jul 27, 2016  --  5.1 %% errors
-Jul 21, 2016  --  4.5 %% errors
-Jul 14, 2016  --  4.9 %% errors
-Jul 28, 2016  --  4.8 %% errors
-Jul 30, 2016  --  4.7 %% errors
-Jul 16, 2016  --  5.0 %% errors
-Jul 19, 2016  --  4.3 %% errors
-Jul 26, 2016  --  4.7 %% errors
-Jul 29, 2016  --  4.9 %% errors
-Jul 24, 2016  --  4.4 %% errors
-Jul 17, 2016  --  1.5 %% errors
-Jul 02, 2016  --  4.8 %% errors
+Q3: On which days did more than 1% of requests lead to errors?
+> 2016-07-17 which it was 1.5%
